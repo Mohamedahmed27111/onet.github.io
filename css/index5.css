@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+   width: 100%;
+}
+
+ul {
+    padding-left: 0;
+   }
+li {
+    list-style: none;
+   }
+.button{
+    height:50px ;
+    width:140px ;
+    background-color:#FB0066 ;
+    color: #FFFFFF;
+    border-radius: 10px;  
+    border: none;
+}
+.container{
+   padding: 0 150px;
+}
+
+   /* start header */
+ header {
+    font-size: 14px;
+    background-color: #4C00A9 ;
+    position: relative;
+    padding: 0 230px ;  
+    
+ }
+ header .container{
+   padding: 10px;
+ }
+ header .navbar .nav-link {
+    color: #FFFFFF ;
+ }
+ header .navbar .right .text{
+   margin-left: 9px;
+ }
+ header .navbar .left {
+    position: absolute;
+    left: 0;
+ }
+ header .navbar .left .icon{
+    margin-right: -14px;
+ }
+ /* end header */
+ /* start home */
+ .home{
+    
+    padding: 40px 0;
+ }
+ .home .main-home{
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+ }
+ .home .main-home .icon{
+   cursor: pointer;
+ }
+ .home .main-home .text{
+   display: flex;
+   justify-content: space-between;
+   color: #4A4A4A;
+   padding-top: 10px;
+ }
+ .home .main-home .text h5 {
+   cursor: pointer;
+ }
+ .home .main-home .text .special-text{
+   margin: 0 30px;
+   position: relative;
+ }
+ .home .main-home .sign
+ {
+   display: flex;
+   flex-flow: row-reverse;
+   justify-content: space-between;
+ }
+ .home .main-home .sign img{
+   width: 20px;
+   cursor: pointer;
+ }
+ .home .main-home .sign .special-img{
+   margin: 0 20px;
+ }
+.home .row-text{
+   background-image: url(../img/home/Group\ 2618.svg);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.home .row-text h1{
+   color: #4A4A4A;
+   font-size: 52px;
+   margin: 55px 0;
+}
+.home .row-img {
+   background-image: url(../img/home/Group\ 2619.svg);
+   
+  margin-top: 80px;
+}
+ /* end home */
+ /* start بلدان شائعة */
+.countries{
+   background-color: #F5F1FA;
+   padding: 110px 0 90px 0;
+}
+.countries .text{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+.countries .text .text-ch h2{
+   font-size: 50px;
+ color: #4A4A4A;
+}
+.countries .text .req {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #FFFFFF;
+   border-radius: 10px;
+   padding: 12px;
+}
+.countries .text .req .j-text
+{
+   padding: 5px;
+   border-radius: 5px;
+}
+.countries .text .req .special-text{
+   background-color: #FF9133;
+   color: #FFFFFF;
+}
+.countries .countries-ch{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+.countries .countries-ch .country{
+   background-color: #FFFFFF;
+   display: flex;
+   margin: 15px;
+   align-items: center;
+   width: 250px;
+   height: 50px;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   overflow: hidden;
+   position: relative;
+   box-shadow: 0px 0px 40px #4C00A926;
+
+}
+.countries .countries-ch .country h6{
+   font-size: 14px;
+   color: #4A4A4A;
+   margin: auto 0;
+}
+.countries .countries-ch .country .c-img{
+   margin-left:7px ;
+}
+.countries .countries-ch .country .arrow {
+   position: absolute;
+   left: 20px;
+}
+
+
+.countries .countries-btn{
+   margin: 50px auto;
+   background-color: #FB0066;
+   width: 272px;
+   cursor: pointer;
+   height: 50px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   position: relative;
+}
+.countries .countries-btn .more{
+display: flex;
+flex-flow: row ;
+justify-content: center;
+align-items: center;
+position: absolute;
+inset: 0;
+}
+.countries .countries-btn .arrow{
+   width: 11px;
+   margin-right: 10px;
+   margin-bottom: 5px;
+}
+ /* end بلدان شائعة */
+ /* start app */
+ .app{
+   padding: 100px 0;
+   position: relative;
+   overflow: hidden;
+ }
+.app .app-text h2 {
+   font-size: 40px;
+   color: #4A4A4A;
+}
+.app .app-img{
+   display: flex;
+   flex-flow:row wrap ;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 80px;
+   text-align: center;
+}
+.app .app-img p{
+color: #4A4A4A;
+margin-top: 20px;
+font-weight: 800;
+}
+.app .app-img img {
+   transition: all 1s;
+}
+.app .app-img :hover img  {
+   scale: 1.05;
+}
+.app .path-1951{
+   width: 40%;
+   position: absolute;
+   left: -140px;
+   bottom: -150px;
+   z-index: -1;
+}
+.app .path-1677{
+   width: 40%;
+   position: absolute;
+   right: -200px;
+   top: -230px;
+   z-index: -1;
+}
+ /* end app */
+ /* start y we */
+.y-we{
+   background-color: #F5F1FA;
+   padding: 170px 0;
+}
+.y-we-text{
+   margin-right: 50px;
+}
+.y-cards .y-img-p{
+   text-align: center;
+   padding: 40px;
+   color: #707070;
+}
+.y-cards .y-card-img{
+   padding: 27px;
+}
+.y-cards .y-img-p h2{
+   color: #4A4A4A;
+}
+.y-we .y-cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.y-we .y-cards .y-cards-ch{
+   background-color: #FFFFFF;
+   padding: 55px;
+   border-radius: 20px;
+   margin: 50px;
+}
+.y-we .y-cards .y-card-text{
+   background-color: #F9F6FC;
+   padding: 10px;
+   border-radius: 10px;
+}
+.y-we .y-card-text-img{
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+.y-we .y-card-text-img h6 {
+   margin-right: 5px;
+}
+.y-we .y-icon{
+   width: 35px;
+   height: 35px;
+   background-color: #4c00a919;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.y-we .y-icon img{
+   width: 60%;
+}
+
+ /* end y we  */
+ /* start app-ad */
+ .app-ad{
+   background-color: #F5F1FA;
+   padding: 50px 130px;
+ }
+.app-ad .the-app{
+   background-image: linear-gradient( to right, #FF9133 , #4C00A9 ) ;
+   color: #FFFFFF;
+   border-radius: 20px;
+   padding: 50px;
+}
+.app-ad .the-app .store-img{
+   display: flex;
+}
+.app-ad .the-app .store-img .store-ch{
+   width: 35%;
+}
+.app-ad .the-app .store-img .spe{
+   margin-left: 10px;
+}
+.app-ad .the-app .the-app-text p{
+   margin: 30px 0;
+}
+.app-ad .the-app-img{
+   position: relative;
+}
+.app-ad .the-app-img .img-ch{
+   width: 84%;
+   position: absolute;
+   right: 0;
+   left: 0;
+   top: -150px;
+}
+
+ /* end app-ad */
+ /* start contact */
+ .contact{
+   background-color: #4C00A9;
+   padding: 100px;
+   color: #F2E8FE;
+ }
+ .contact li{
+   margin: 10px 0;
+   transition: all 0.5s;
+   cursor: pointer;
+ }
+ .contact .dis{
+   display: flex;
+   justify-content: space-between;
+   
+ }
+ .contact .spe img{
+   width: 45%;
+   margin-bottom: 15px;
+ }
+ .contact .social{
+   display: flex;
+   
+ }
+ .contact .social-ch{
+width: 15px;
+margin: 0 10px;
+ }
+
+ /* end contact */
+ .bar{
+   background-color: #FB0066;
+   height: 40px;
+ }
